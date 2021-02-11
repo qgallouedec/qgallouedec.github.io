@@ -1,6 +1,6 @@
 layout: page
 title: "Contact"
-permalink: https://qgallouedec.github.io/about/contact
+permalink: /about/contact/
 
 # My title
 
