@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-15T14:33:24+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quentin’s site</title><subtitle>PhD Student in Deep Reinforcement Learning</subtitle><author><name>Quentin GALLOUÉDEC</name></author><entry><title type="html">OpenAI Gym environment for Franka Emika Panda robot</title><link href="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/" rel="alternate" type="text/html" title="OpenAI Gym environment for Franka Emika Panda robot" /><published>2021-02-13T00:00:00+01:00</published><updated>2021-02-13T00:00:00+01:00</updated><id>http://localhost:4000/posts/2021/02/panda-gym</id><content type="html" xml:base="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/qgallouedec/panda-gym/master/docs/demo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-16T22:58:49+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quentin’s site</title><subtitle>PhD Student in Deep Reinforcement Learning</subtitle><author><name>Quentin GALLOUÉDEC</name></author><entry><title type="html">OpenAI Gym environment for Franka Emika Panda robot</title><link href="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/" rel="alternate" type="text/html" title="OpenAI Gym environment for Franka Emika Panda robot" /><published>2021-02-13T00:00:00+01:00</published><updated>2021-02-13T00:00:00+01:00</updated><id>http://localhost:4000/posts/2021/02/panda-gym</id><content type="html" xml:base="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/qgallouedec/panda-gym/master/docs/demo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;learning-is-cool&quot;&gt;Learning is cool&lt;/h1&gt;
+&lt;h1 id=&quot;openai-gym-environment-for-franka-emika-panda-robot&quot;&gt;OpenAI Gym environment for Franka Emika Panda robot&lt;/h1&gt;
 
 &lt;p&gt;It is no longer necessary to explain the genesis of reinforcement learning and the great applications it has. There are many school cases and the learning algorithms are more and more interesting.
 I find them particularly fascinating when they can be explained with very simple ideas.&lt;/p&gt;
@@ -15,7 +15,7 @@ I also chose to use another robot arm, with more joints, and a different gripper
 Source code is available on &lt;a href=&quot;https://github.com/qgallouedec/panda-gym&quot;&gt;GitHub&lt;/a&gt;. 
 In the following, I will present you the result of this work, and show you some examples of use.&lt;/p&gt;
 
-&lt;h1 id=&quot;installation-and-usage&quot;&gt;Installation and usage&lt;/h1&gt;
+&lt;h2 id=&quot;installation-and-usage&quot;&gt;Installation and usage&lt;/h2&gt;
 
 &lt;p&gt;Using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip&lt;/code&gt; you can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panda-gym&lt;/code&gt;by running&lt;/p&gt;
 
@@ -40,13 +40,12 @@ In the following, I will present you the result of this work, and show you some 
 
 &lt;p&gt;For those of you who are used to the OpenAI gym environments, you will notice that the rendering functionality is not handled in the usual way. It is passed as an argument to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;make&lt;/code&gt; function. So you don’t need to call the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;render()&lt;/code&gt; function.&lt;/p&gt;
 
-&lt;h1 id=&quot;train-panda_gym-with-hindsight-experience-replay&quot;&gt;Train &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panda_gym&lt;/code&gt; with Hindsight Experience Replay&lt;/h1&gt;
+&lt;h2 id=&quot;train-panda_gym-with-hindsight-experience-replay&quot;&gt;Train &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panda_gym&lt;/code&gt; with Hindsight Experience Replay&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1707.01495&quot;&gt;Hindsight Experience Replay&lt;/a&gt; (HER) was introduced in 2017 by Andrychowicz et al.. The key idea of HER is to see a fail as a success, but with another goal.
 It is a method that has shown very promising results in robotic environments. Since the space of action and the space of observation are identical, the results should be very similar.&lt;/p&gt;
 
-&lt;div class=&quot;infogram-embed&quot; data-id=&quot;904c3193-f551-4da8-9c37-36ff4e47fe12&quot; data-type=&quot;interactive&quot; data-title=&quot;Courbes avec marge d&amp;amp;#39;erreur&quot;&gt;
-&lt;/div&gt;
+&lt;div class=&quot;infogram-embed&quot; data-id=&quot;904c3193-f551-4da8-9c37-36ff4e47fe12&quot; data-type=&quot;interactive&quot; data-title=&quot;Courbes avec marge d&amp;amp;#39;erreur&quot;&gt;&lt;/div&gt;
 &lt;script&gt;
 !function(e,i,n,s){
   var t=&quot;InfogramEmbeds&quot;,d=e.getElementsByTagName(&quot;script&quot;)[0];
@@ -55,4 +54,47 @@ It is a method that has shown very promising results in robotic environments. Si
     var o=e.createElement(&quot;script&quot;);o.async=1,o.id=n,o.src=&quot;https://e.infogram.com/js/dist/embed-loader-min.js&quot;,d.parentNode.insertBefore(o,d)
     }
   }(document,0,&quot;infogram-async&quot;);
-&lt;/script&gt;</content><author><name>Quentin GALLOUÉDEC</name></author><category term="PyBullet" /><category term="OpenAI Gym" /><category term="Robotics" /><category term="Reinforcement Learning" /><summary type="html"></summary></entry></feed>
+&lt;/script&gt;
+
+&lt;p&gt;In the early epochs, the Panda seems to learn better than the Fetch. Then, The Panda seems to reach a maximum success rate of about 60%, while the Fetch keeps on learning.&lt;/p&gt;
+
+&lt;p&gt;How can these differences in learning performance be explained? Several explanations seem credible.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First, since the simulation engine has changed (MujoCo to PyBullet), it is likely that some default parameters make the task more complex: the friction model, the default constants, etc. Future work will have to remove this unknown.&lt;/li&gt;
+  &lt;li&gt;Second, the robot arm has also changed and therefore the contact surface of the fingers. It is important to note that on the Panda robot simulator, the visually represented contact surface is not the collision surface (the one useful for grasping). For the Fetch robot, the gripping surface is 5.19 cm2 and for the Panda robot it is 5.56 cm2. Thus the Panda robot has a larger gripping surface than the Fetch robot (in simulation only). Nevertheless, I recently noticed that the collision surfaces corresponding to the Panda
+robot’s fingers were not strictly parallel. This could reduce the contact area to two contact segments and greatly complicate the gripping task.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;known-limitations&quot;&gt;Known limitations&lt;/h2&gt;
+
+&lt;p&gt;This tool is very satisfying for testing deep reinforcement learning algorithms. However, some points can be limiting. Here is a list of them.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It is not possible to easily deploy the policy learned in simulation, for several reasons:
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;The Franka Emika Panda robot works with the &lt;a href=&quot;https://frankaemika.github.io/docs/libfranka.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libranka&lt;/code&gt;&lt;/a&gt; library. This library allows a control of the joints but not of the cartesian position of the end-effector. To solve this issue, it is possible to use the &lt;a href=&quot;https://frankaemika.github.io/docs/franka_ros.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;franka_ros&lt;/code&gt;&lt;/a&gt; overlay and &lt;a href=&quot;http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/&quot;&gt;MoveIt!&lt;/a&gt; to control the cartesian position of the end-effector. The limitation remains in the gripper control: it can only be controlled by high level actions such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grasp&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;move&lt;/code&gt;. Additional work is required to allow the deployment of a policy learned in simulation.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The simulation is stopped when the action is inferred. It is not possible to stop real time. Several tricks are possible, future work will explore them.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The simulation is not completely realistic.
+One difference already mentioned concerns the shape of the gripper. The gripper collision mesh is shown in the following figure.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/collision_gripper.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In reality, the surface is much smaller, and does not have this shape. Then, the dynamic behavior is surely not faithful to reality since the masses and inertia matrices taken from from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pybullet&lt;/code&gt; are not correct. Nevertheless, I do not propose any quantification of this behavioral deviation.&lt;/p&gt;
+
+&lt;h2 id=&quot;additionnal-material&quot;&gt;Additionnal material&lt;/h2&gt;
+
+&lt;p&gt;For more information on this subject, please consult:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;files/../../_site/files/TFErapport.pdf&quot;&gt;detailed report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;files/../../_site/files/recent%20results.pdf&quot;&gt;additionnal results&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/qgallouedec/panda-gym&quot;&gt;Panda-gym GitHub repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/qgallouedec/drl-grasping&quot;&gt;Code used for training&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Quentin GALLOUÉDEC</name></author><category term="PyBullet" /><category term="OpenAI Gym" /><category term="Robotics" /><category term="Reinforcement Learning" /><summary type="html"></summary></entry></feed>
