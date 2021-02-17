@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-16T22:58:49+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quentin’s site</title><subtitle>PhD Student in Deep Reinforcement Learning</subtitle><author><name>Quentin GALLOUÉDEC</name></author><entry><title type="html">OpenAI Gym environment for Franka Emika Panda robot</title><link href="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/" rel="alternate" type="text/html" title="OpenAI Gym environment for Franka Emika Panda robot" /><published>2021-02-13T00:00:00+01:00</published><updated>2021-02-13T00:00:00+01:00</updated><id>http://localhost:4000/posts/2021/02/panda-gym</id><content type="html" xml:base="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/qgallouedec/panda-gym/master/docs/demo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-17T12:13:15+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quentin’s site</title><subtitle>PhD Student in Deep Reinforcement Learning</subtitle><author><name>Quentin GALLOUÉDEC</name></author><entry><title type="html">OpenAI Gym environment for Franka Emika Panda robot</title><link href="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/" rel="alternate" type="text/html" title="OpenAI Gym environment for Franka Emika Panda robot" /><published>2021-02-13T00:00:00+01:00</published><updated>2021-02-13T00:00:00+01:00</updated><id>http://localhost:4000/posts/2021/02/panda-gym</id><content type="html" xml:base="http://localhost:4000/posts/2021/02/openai-environment-for-franka-emika-panda-robot/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/qgallouedec/panda-gym/master/docs/demo.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;openai-gym-environment-for-franka-emika-panda-robot&quot;&gt;OpenAI Gym environment for Franka Emika Panda robot&lt;/h1&gt;
+&lt;p&gt;I am pleased to present 4 new reinforcement learning environments, based on the control in simulation of the Franka Emika Panda robot. These environments, based on the bullet physics engine, try to reproduce as closely as possible the Fetch environments based on MuJoCo.
+Here is the list of included environments:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PandaReach-v0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PandaPush-v0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PandaSlide-v0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PandaPickAndPlace-v0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Solarized dark&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Solarized Ocean&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/reach.gif&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;!&lt;img src=&quot;/images/push.gif&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/slide.gif&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;!&lt;img src=&quot;/images/pickandplace.gif&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;It is no longer necessary to explain the genesis of reinforcement learning and the great applications it has. There are many school cases and the learning algorithms are more and more interesting.
 I find them particularly fascinating when they can be explained with very simple ideas.&lt;/p&gt;
@@ -22,12 +49,12 @@ In the following, I will present you the result of this work, and show you some 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;panda-gym
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Then, in a python script:&lt;/p&gt;
+&lt;p&gt;Then, in a python script, for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PandaReach-v0&lt;/code&gt; environment:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;gym&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;panda_gym&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gym&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;make&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'PandaReach-v0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gym&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;make&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;PandaReach-v0&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;obs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;done&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
@@ -38,7 +65,11 @@ In the following, I will present you the result of this work, and show you some 
 &lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;Result for the for environments `PandaReac:&lt;/p&gt;
+
 &lt;p&gt;For those of you who are used to the OpenAI gym environments, you will notice that the rendering functionality is not handled in the usual way. It is passed as an argument to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;make&lt;/code&gt; function. So you don’t need to call the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;render()&lt;/code&gt; function.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-environments-work&quot;&gt;How environments work&lt;/h2&gt;
 
 &lt;h2 id=&quot;train-panda_gym-with-hindsight-experience-replay&quot;&gt;Train &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panda_gym&lt;/code&gt; with Hindsight Experience Replay&lt;/h2&gt;
 
@@ -97,4 +128,4 @@ One difference already mentioned concerns the shape of the gripper. The gripper 
   &lt;li&gt;&lt;a href=&quot;files/../../_site/files/recent%20results.pdf&quot;&gt;additionnal results&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/qgallouedec/panda-gym&quot;&gt;Panda-gym GitHub repository&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/qgallouedec/drl-grasping&quot;&gt;Code used for training&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Quentin GALLOUÉDEC</name></author><category term="PyBullet" /><category term="OpenAI Gym" /><category term="Robotics" /><category term="Reinforcement Learning" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Quentin GALLOUÉDEC</name></author><category term="PyBullet" /><category term="OpenAI Gym" /><category term="Robotics" /><category term="Reinforcement Learning" /><category term="grasp" /><summary type="html"></summary></entry></feed>
