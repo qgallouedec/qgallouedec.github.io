@@ -19,6 +19,8 @@ Feel free to suggest me your readings. Most references are in english, but I usu
   - [[English](https://www.amazon.com/gp/product/B000JMKNZQ/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i5)] [[French](https://www.amazon.com/gp/product/B00OIYYBPE/ref=dbs_a_def_rwt_hsch_vapi_tkin_p8_i2)]
 - Erelle, A. (2015) _In the Skin of a Jihadist: A Young Journalist Enters the ISIS Recruitment Network_.
   - [[English](https://www.amazon.com/gp/product/B00U1ZV8DW/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0)]
+- Général Gallet, J.-C. (2020). _Éloge du courage_.
+  - [[French](https://www.amazon.com/dp/B08L548B3F/ref=cm_sw_r_tw_dp_RG8BVFWAZ9Z1ESVP5YY9)]
 - Greene, R. (2012). _Mastery_.
   - [[English](https://www.amazon.com/gp/product/B007V65PBK/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i3)] [[French](https://www.amazon.com/gp/product/B01N4C61YM/ref=dbs_a_def_rwt_hsch_vapi_tkin_p2_i8)]
 - Greene, R. (1998). _Power_.
