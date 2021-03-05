@@ -13,7 +13,7 @@ redirect_from:
 
 * **Since 2020:** Ph.D student in Machine Learning/Deep Reinforcement Learning
   * Dissertation: _Deep Reinforcement Learning for soft object grasping_
-  * Advisor: Prof. [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil)
+  * Supervisor: Prof. [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil)
 * **Since 2020:** Interrogator in mathematics
   * in the 5th best _Classe Préparatoire_*  in France, since 2020
   * [Centre scolaire Aux Lazariste](https://www.letudiant.fr/palmares/classement-prepa/fiche/etablissement-centre-scolaire-aux-lazaristes-6257.html)
@@ -29,7 +29,7 @@ redirect_from:
 * **2018-2019:** Master's degree in Electronics, Energy, Electricity and Automation
   * Université Claude Bernard Lyon, France
   * École Centrale de Lyon, France
-* **2014-2016:**_Classe Préparatoire_*
+* **2014-2016:** _Classe Préparatoire_*
   * Lycée Clemenceau, Nantes, France
 
 ## Work experience
@@ -48,7 +48,7 @@ redirect_from:
 
 * **Spring 2018:** Research Internship
   * Polytechnique Montreal, Canada
-  * Supervisor : [Prof. Maxime Raison](https://www.polymtl.ca/expertises/en/raison-maxime)
+  * Supervisor: [Prof. Maxime Raison](https://www.polymtl.ca/expertises/en/raison-maxime)
   * I developed a robotic arm with 3D printing for disabled children. The goal was to make the arm capable of playing tennis table. Computer vision and real-time algorithm to detect the ball and make the arm hit it.
   * [Report](../files/CRME_intership.pdf)
   * [Blog post](https://qgallouedec.github.io/posts/2018/08/building_a_robot_with_3D_printing/)
