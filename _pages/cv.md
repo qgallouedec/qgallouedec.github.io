@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Currently
-======
+## Currently
+
 * **Since 2020:** Ph.D student in Machine Learning/Deep Reinforcement Learning
   * Dissertation: _Deep Reinforcement Learning for soft object grasping_
   * Advisor: Prof. [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil)
@@ -22,19 +22,19 @@ Currently
   * I worked one year on a proof of concept of an embedded communication and localisation system based on LoRa/Mesh Wi-Fi/UWB. I used real-time optimization algorithm to acquire and treat various soft information.
   * Since 2019, I work part time in support of innovation topics such as indoor localization, indoor communication, etc.
 
-Education
-======
-* **2018-2019:** Master's degree in Electronics, Energy, Electricity and Automation
-  * Université Claude Bernard Lyon, France
+## Education
+
 * **2016-2019:** _Diplôme d’Ingénieur_ (M.S. and B.S. in Engineering Sciences)
   * Majoring in computer science
+* **2018-2019:** Master's degree in Electronics, Energy, Electricity and Automation
+  * Université Claude Bernard Lyon, France
   * École Centrale de Lyon, France
 * **2014-2016:**_Classe Préparatoire_*
   * Lycée Clemenceau, Nantes, France
 
+## Work experience
 
-Work experience
-======
+
 * **Sring 2020:** Machine Learning Research Internship
   * LIRIS, UMR 5205 CNRS France
   * Deep Reinforcement Learning for soft objects grasping
@@ -53,6 +53,20 @@ Work experience
   * [Report](../files/CRME_intership.pdf)
   * [Blog post](https://qgallouedec.github.io/posts/2018/08/building_a_robot_with_3D_printing/)
 
+
+## Supervised student projects
+
+* **2021:** Simulation and characterization of a tactile sensor for learning robotic tasks. (4 engineering students).
+* **2020:** Soft-information for indoor positionning of firefighters (14 engineering students).
+
+## Miscellaneous
+
+* **2019:** National Defense Medalist for my commitment as a firefighter.
+* **2012:** Winner of _Science et vie junior_ magazine's Innovez national contest.
+* **Since 2011:** I am a black belt in Judo and I have been a national level athlete.
+
+
+*: equivalent to first two years of B.S. in the US
 
 
 <!-- Publications
@@ -73,11 +87,4 @@ Work experience
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
   
-Miscellaneous
-======
-* **2019:** I have been awarded the National Defense Medal for my commitment as a firefighter
-* **2012:** Winner of Science et vie junior magazine's Innovez national contest
-* **Since 2011:** I am a black belt in Judo and I have been a national level athlete
 
-
-*: equivalent to first two years of B.S. in the US
