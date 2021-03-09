@@ -38,7 +38,7 @@ redirect_from:
 * **Sring 2020:** Machine Learning Research Internship
   * LIRIS, UMR 5205 CNRS France
   * Deep Reinforcement Learning for soft objects grasping
-  * [[Report](../files/TFErapport.pdf)] [[Repository](https://github.com/qgallouedec/panda-gym)]  [[Blog post](https://qgallouedec.github.io/posts/2021/02/panda-gym/)]
+  * [[Report](../files/TFErapport.pdf)] [[Repository](https://github.com/qgallouedec/panda-gym)]  [[Blog post](https://qgallouedec.github.io/posts/2021/02/openai-environment-for-franka-emika-panda-robot/)]
 
 * **2019 - 2020:** Deep Learning Project
   * From visual and audio features of 66 movies ([MEDIAEVAL18 dataset](http://www.multimediaeval.org/mediaeval2018/)), the aim is to predict valence and arousal for each second of the movie. We use LSTM and CNN, coded with PyTorch in Python, trained on cloud GPUs.
