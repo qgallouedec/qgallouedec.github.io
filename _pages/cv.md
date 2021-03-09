@@ -45,6 +45,7 @@ redirect_from:
   * From visual and audio features of 66 movies ([MEDIAEVAL18 dataset](http://www.multimediaeval.org/mediaeval2018/)), the aim is to predict valence and arousal for each second of the movie. We use LSTM type RNNs, coded with PyTorch in Python, trained on cloud GPUs.
   * [Report](../files/Rapport_Emotion_Project.pdf)
   * [Repository](https://github.com/KongHag/emotion_project)
+  * [Blog post](https://qgallouedec.github.io/posts/2020/03/learning-a-machine-to-feel-emotions/
 
 * **Spring 2018:** Research Internship
   * Polytechnique Montreal, Canada
