@@ -29,7 +29,7 @@ Can we imagine a machine that predicts the emotion the average viewer feels when
 That's exactly what it's all about.
 
 The 2018 version of the [MediaEval](https://multimediaeval.github.io/editions/2020/) dataset consists of raw video data from film footage under Creative Commons license, and features extracted from the images and soundtrack. The data are obviously labeled every second in the valence-arousal plane.
-In total, there are 31 hours of film. The challenge for us is therefore to teach a model to predict the emotions induced in a viewer of is to predict the emotions induced by the image-audio combination of the data.
+In total, there are 31 hours of film. The challenge for us is therefore to learn a model that predict the emotions induced in a viewer by the image-audio combination of the data.
 
 You will tell me that emotion is subjective. Yes, it is. But it is reasonable to think that the same scene will produce similar emotions in most of us. Did you feel joy when you looked at Mufassa's gif? So we'll take the average of 10 annotators, and we try to predict the average emotion felt.
 
@@ -57,5 +57,5 @@ What do you think?
 
 ## Additional content
 
-- [Report (pdf)](../files/Rapport_Emotion_Project.pdf)
+- [Report (pdf)](https://raw.githubusercontent.com/qgallouedec/qgallouedec.github.io/main/files/Rapport_Emotion_Project.pdf)
 - [Github repository](https://github.com/KongHag/emotion_project)
