@@ -28,7 +28,9 @@ redirect_from:
   * Majoring in computer science
   * École centrale de Lyon, France
 * **2018-2019:** Master's degree in Electronics, Energy, Electricity and Automation
+  * Dissertation: _Mixed-Precision in Graphics Processing Units_
   * Université Claude Bernard Lyon, France
+  * [[Report](../files/mixed_precision_in_graphics_processing_units_report.pdf)] [[Slides](../files/mixed_precision_in_graphics_processing_units_slides.pdf)]
 * **2014-2016:** _Classe Préparatoire_*
   * Lycée Clemenceau, Nantes, France
 
