@@ -33,13 +33,13 @@ In total, there are 31 hours of film. The challenge for us is therefore to teach
 
 You will tell me that emotion is subjective. Yes, it is. But it is reasonable to think that the same scene will produce similar emotions in most of us. Did you feel joy when you looked at Mufassa's gif? So we'll take the average of 10 annotators, and we try to predict the average emotion felt.
 
-![](https://raw.githubusercontent.com/qgallouedec/qgallouedec.github.io/main/images/circumplex_model.png)
+![](https://raw.githubusercontent.com/qgallouedec/qgallouedec.github.io/main/images/valence_arousal.png)
 
 ## Model and results
 
 To capture the temoral and special dimensions, we chose a rather classical architecture composed of CNN and LSTM layers. As input we do not use raw data (pixels) but descriptors. For some, there is a spatial meaning. It is in these cases that we will assign a CNN layer.
 
-![](https://raw.githubusercontent.com/qgallouedec/qgallouedec.github.io/main/images/emotion_strcture.png)
+![](https://raw.githubusercontent.com/qgallouedec/qgallouedec.github.io/main/images/emotion_structure.png)
 
 
 <div class="infogram-embed" data-id="36fb17d7-9658-401a-81a8-62c2b47f2fa8" data-type="interactive" data-title="predicting emotion"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/36fb17d7-9658-401a-81a8-62c2b47f2fa8" style="color:#989898!important;text-decoration:none!important;" target="_blank">predicting emotion</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
