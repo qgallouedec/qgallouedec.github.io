@@ -13,7 +13,7 @@ redirect_from:
 
 * **Since 2020:** Ph.D student in Machine Learning/Deep Reinforcement Learning
   * Dissertation: _Deep Reinforcement Learning for soft object grasping_
-  * Supervisor: Prof. [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil)
+  * Supervisor: [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil)
 * **Since 2020:** Interrogator in mathematics
   * in the 5th best _Classe Préparatoire_*  in France, since 2020
   * [Centre scolaire Aux Lazariste](https://www.letudiant.fr/palmares/classement-prepa/fiche/etablissement-centre-scolaire-aux-lazaristes-6257.html)
@@ -26,9 +26,11 @@ redirect_from:
 
 * **2016-2019:** _Diplôme d’Ingénieur_ (M.S. and B.S. in Engineering Sciences)
   * Majoring in computer science
+  * École centrale de Lyon, France
 * **2018-2019:** Master's degree in Electronics, Energy, Electricity and Automation
+  * Dissertation: _Mixed-Precision in Graphics Processing Units_
   * Université Claude Bernard Lyon, France
-  * École Centrale de Lyon, France
+  * [[Report](../files/mixed_precision_in_graphics_processing_units_report.pdf)] [[Slides](../files/mixed_precision_in_graphics_processing_units_slides.pdf)]
 * **2014-2016:** _Classe Préparatoire_*
   * Lycée Clemenceau, Nantes, France
 
@@ -38,21 +40,17 @@ redirect_from:
 * **Sring 2020:** Machine Learning Research Internship
   * LIRIS, UMR 5205 CNRS France
   * Deep Reinforcement Learning for soft objects grasping
-  * [Report](../files/TFErapport.pdf)
-  * [Repository](https://github.com/qgallouedec/panda-gym) 
+  * [[Report](../files/TFErapport.pdf)] [[Repository](https://github.com/qgallouedec/panda-gym)]  [[Blog post](https://qgallouedec.github.io/posts/2021/02/openai-environment-for-franka-emika-panda-robot/)]
 
 * **2019 - 2020:** Deep Learning Project
-  * From visual and audio features of 66 movies ([MEDIAEVAL18 dataset](http://www.multimediaeval.org/mediaeval2018/)), the aim is to predict valence and arousal for each second of the movie. We use LSTM type RNNs, coded with PyTorch in Python, trained on cloud GPUs.
-  * [Report](../files/Rapport_Emotion_Project.pdf)
-  * [Repository](https://github.com/KongHag/emotion_project)
-  * [Blog post](https://qgallouedec.github.io/posts/2020/03/learning-a-machine-to-feel-emotions/
+  * From visual and audio features of 66 movies ([MEDIAEVAL18 dataset](http://www.multimediaeval.org/mediaeval2018/)), the aim is to predict valence and arousal for each second of the movie. We use LSTM and CNN, coded with PyTorch in Python, trained on cloud GPUs.
+  * [[Report](../files/Rapport_Emotion_Project.pdf)] [[Repository](https://github.com/KongHag/emotion_project)] [[Blog post](https://qgallouedec.github.io/posts/2020/03/learning-a-machine-to-feel-emotions/)]
 
 * **Spring 2018:** Research Internship
   * Polytechnique Montreal, Canada
   * Supervisor: [Prof. Maxime Raison](https://www.polymtl.ca/expertises/en/raison-maxime)
   * I developed a robotic arm with 3D printing for disabled children. The goal was to make the arm capable of playing tennis table. Computer vision and real-time algorithm to detect the ball and make the arm hit it.
-  * [Report](../files/CRME_intership.pdf)
-  * [Blog post](https://qgallouedec.github.io/posts/2018/08/building_a_robot_with_3D_printing/)
+  * [[Report](../files/CRME_intership.pdf)] [[Blog post](https://qgallouedec.github.io/posts/2018/08/building_a_robot_with_3D_printing/)]
 
 
 ## Supervised student projects
