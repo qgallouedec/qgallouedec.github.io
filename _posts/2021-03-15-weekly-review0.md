@@ -15,7 +15,7 @@ gallery:
 ---
 
 <!-- ![](/images/weekly_review0/mario.gif) -->
-{% include gallery image_path="weekly_review0/mario.gif" caption-"my caption" %}
+{% include gallery image_path="weekly_review0/mario.gif" caption="my caption" %}
 
 Every Monday, I present 4 publications from my research area. Let's discuss them!
 
