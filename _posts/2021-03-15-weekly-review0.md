@@ -10,7 +10,7 @@ tags:
 ---
 
 <!-- ![](/images/weekly_review0/mario.gif) -->
-{% include gallery src="/images/weekly_review0/mario.gif" caption="test" %}
+{% include gallery src="weekly_review0/mario.gif" caption="test" %}
 
 Every Monday, I present 4 publications from my research area. Let's discuss them!
 
