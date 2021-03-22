@@ -7,10 +7,14 @@ tags:
   - Reinforcement learning
   - Machine learning
   - Artificial Intelligence
+gallery:  
+- album: gallery        # can not be replaced
+  title: 'my title'
+  image_path: 'weekly_review0/mario.gif'
 ---
 
 <!-- ![](/images/weekly_review0/mario.gif) -->
-{% include gallery caption="test" image_path="weekly_review0/mario.gif"  %}
+{% include gallery caption="test" image_path="weekly_review0/mario.gif" id=" %}
 
 Every Monday, I present 4 publications from my research area. Let's discuss them!
 
