@@ -9,8 +9,8 @@ tags:
   - Artificial Intelligence
 ---
 
-![](/images/weekly_review0/mario.gif)
-{% include caption="test" %}
+<!-- ![](/images/weekly_review0/mario.gif) -->
+{% include gallery src="/images/weekly_review0/mario.gif" caption="test" %}
 
 Every Monday, I present 4 publications from my research area. Let's discuss them!
 
