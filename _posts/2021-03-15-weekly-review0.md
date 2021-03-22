@@ -8,7 +8,7 @@ tags:
   - Machine learning
   - Artificial Intelligence
 gallery:
-  - url: weekly_review0/mario.gif
+  - url: posts/2021/03/weekly-review-of-reinforcement-learning-papers-0/
     image_path: weekly_review0/mario.gif
     alt: "placeholder image 1"
     title: "Title for image 1"
