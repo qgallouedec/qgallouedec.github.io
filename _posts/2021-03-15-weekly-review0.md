@@ -9,7 +9,7 @@ tags:
   - Artificial Intelligence
 ---
 
-{% include figure image_path="/images/weekly_review0/mario.gif" alt="this is a placeholder mario image" caption="This is a figure caption." %}
+{% include figure image_path="https://qgallouedec.github.io/images/weekly_review0/mario.gif" alt="this is a placeholder mario image" caption="This is a figure caption." %}
 
 <!-- ![alt](/images/weekly_review0/mario.gif "My title") -->
 
