@@ -9,9 +9,8 @@ tags:
   - Artificial Intelligence
 ---
 
-{% include figure image_path="https://qgallouedec.github.io/images/weekly_review0/mario.gif" alt="this is a placeholder mario image" caption="This is a figure caption." %}
-
-<!-- ![alt](/images/weekly_review0/mario.gif "My title") -->
+![](/images/weekly_review0/mario.gif)
+{% include caption="test" %}
 
 Every Monday, I present 4 publications from my research area. Let's discuss them!
 
