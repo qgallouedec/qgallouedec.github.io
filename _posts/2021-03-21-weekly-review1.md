@@ -18,16 +18,6 @@ gallery:
 
 Every Monday, I present 4 publications from my research area. Let's discuss them!
 
-
-
-
-
-
-
-
-
-
-
 [[← Previous review](/posts/2021/03/weekly-review-of-reinforcement-learning-papers-0/)][Next review →]
 
 ## Paper 1: Learning to Fly — a Gym Environment with PyBullet Physics for Reinforcement Learning of Multi-agent Quadcopter Control
