@@ -14,10 +14,10 @@ gallery:
     title: "Title for image 1"
 ---
 
-Every Monday, I present 4 publications from my research area. Let's discuss them!
 
 {% include gallery image_path="weekly_review0/mario.gif"%}
 
+Every Monday, I present 4 publications from my research area. Let's discuss them!
 
 
 [[← Previous review](/posts/2021/03/weekly-review-of-reinforcement-learning-papers-0/)][Next review →]
