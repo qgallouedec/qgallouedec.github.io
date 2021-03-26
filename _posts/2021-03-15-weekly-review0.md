@@ -19,6 +19,7 @@ gallery:
 
 Every Monday, I present 4 publications from my research area. Let's discuss them!
 
+[[Next review →](/posts/2021/03/weekly-review-of-reinforcement-learning-papers-1/)]
 ## Paper 1: First return, then explore
 
 [[Paper](https://www.nature.com/articles/s41586-020-03157-9)] in Nature -Ecoffet A., Huizinga J. and al.
