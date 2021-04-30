@@ -17,4 +17,6 @@ Feel free to contact me, I would be happy to share with you my work or anything 
 
 ## News
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Weekly review of Reinforcement Learning papers #4 | Medium <a href="https://t.co/iilumnMzqa">https://t.co/iilumnMzqa</a><br><br>This week we talk about MBRL with <a href="https://twitter.com/jhamrick?ref_src=twsrc%5Etfw">@jhamrick</a>, <a href="https://twitter.com/hashtag/robotics?src=hash&amp;ref_src=twsrc%5Etfw">#robotics</a> with <a href="https://twitter.com/ZhongyuLi4?ref_src=twsrc%5Etfw">@ZhongyuLi4</a>, and <a href="https://twitter.com/hashtag/medicine?src=hash&amp;ref_src=twsrc%5Etfw">#medicine</a> with <a href="https://twitter.com/ali_elhassouni?ref_src=twsrc%5Etfw">@ali_elhassouni</a>. We also talk a little about the ice pack with Andrew J. Christ.</p>&mdash; Quentin Gallouedec (@QGallouedec) <a href="https://twitter.com/QGallouedec/status/1381550786983948288?ref_src=twsrc%5Etfw">April 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id="medium-widget"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://towardsdatascience.com/weekly-review-of-reinforcement-learning-papers-6-2f919fe2a479","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
