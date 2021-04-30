@@ -17,6 +17,4 @@ Feel free to contact me, I would be happy to share with you my work or anything 
 
 ## News
 
-<div id="medium-widget"></div>
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://towardsdatascience.com/weekly-review-of-reinforcement-learning-papers-6-2f919fe2a479","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’ve published in <a href="https://twitter.com/TDataScience?ref_src=twsrc%5Etfw">@TDataScience</a> my “Weekly review of <a href="https://twitter.com/hashtag/ReinforcementLearning?src=hash&amp;ref_src=twsrc%5Etfw">#ReinforcementLearning</a> papers #6”, dealing with <a href="https://twitter.com/hashtag/robotics?src=hash&amp;ref_src=twsrc%5Etfw">#robotics</a>, offline <a href="https://twitter.com/hashtag/RL?src=hash&amp;ref_src=twsrc%5Etfw">#RL</a> and <a href="https://twitter.com/hashtag/CNN?src=hash&amp;ref_src=twsrc%5Etfw">#CNN</a>.<a href="https://t.co/9tqvR5Tb0W">https://t.co/9tqvR5Tb0W</a></p>&mdash; Quentin Gallouedec (@QGallouedec) <a href="https://twitter.com/QGallouedec/status/1387815316009459718?ref_src=twsrc%5Etfw">April 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
