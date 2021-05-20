@@ -1,10 +1,11 @@
 ---
 layout: archive
-title: "My readings"
-permalink: /readings/
+title: "Personal"
+permalink: /personal/
 author_profile: true
 ---
 
+## My readings
 
 Not directly related to my research work. On this page you will find in bulk the readings that have marked me and that I recommend to you.
 Feel free to suggest me your readings. Most references are in english, but I usually read in french.
