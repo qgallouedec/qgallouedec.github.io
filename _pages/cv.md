@@ -13,7 +13,7 @@ redirect_from:
 
 * **Since 2020:** Ph.D student in Machine Learning/Deep Reinforcement Learning
   * Dissertation: _Deep Reinforcement Learning for soft object grasping_
-  * Supervisor: [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil)
+  * Supervisor: [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil) and [Associate Prof. Emmanuel Dellandréa](http://perso.ec-lyon.fr/emmanuel.dellandrea/index.php)
 * **Since 2020:** Interrogator in mathematics
   * in the 5th best _Classe Préparatoire_*  in France, since 2020
   * [Centre scolaire Aux Lazariste](https://www.letudiant.fr/palmares/classement-prepa/fiche/etablissement-centre-scolaire-aux-lazaristes-6257.html)

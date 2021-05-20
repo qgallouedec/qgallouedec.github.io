@@ -11,7 +11,7 @@ redirect_from:
 
 ## About me
 
-I am a PhD student specializing in deep reinforcement learning. I work especially on robot learning applied to object grasping. My driving force is my fascination for the intertwining of cognitive science and artificial intelligence. Every day I ask myself this very basic question: how do we learn so much without even realizing it?
+I am a PhD student working in deep reinforcement learning at [LIRIS](https://liris.cnrs.fr)/[École centrale de Lyon](https://www.ec-lyon.fr), supervised by [Prof. Liming Chen](https://sites.google.com/view/limingchen/accueil) and [Associate Prof. Emmanuel Dellandréa](http://perso.ec-lyon.fr/emmanuel.dellandrea/index.php). I work especially on robot learning applied to object grasping. My driving force is my fascination for the intertwining of cognitive science and artificial intelligence. Every day I ask myself this very basic question: how do we learn so much without even realizing it?
 
 Feel free to contact me, I would be happy to share with you my work or anything else.
 
