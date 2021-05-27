@@ -53,10 +53,11 @@ redirect_from:
   * [[Report](../files/CRME_intership.pdf)] [[Blog post](https://qgallouedec.github.io/posts/2018/08/building_a_robot_with_3D_printing/)]
 
 
-## Supervised student projects
+## Supervised student and projects
 
-* **2021:** Simulation and characterisation of a tactile sensor for learning robotic tasks. (4 engineering students).
-* **2020:** Soft-information for indoor positioning of firefighters (14 engineering students).
+* **2021:** Dimitri Fréon: _High performance simulation of soft object grasping._
+* **2021:** _Simulation and characterisation of a tactile sensor for learning robotic tasks._ (4 engineering students).
+* **2020:** _Soft-information for indoor positioning of firefighters._ (14 engineering students).
 
 ## Miscellaneous
 
