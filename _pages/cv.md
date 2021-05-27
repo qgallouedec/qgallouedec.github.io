@@ -55,7 +55,7 @@ redirect_from:
 
 ## Supervised student and projects
 
-* **2021:** Dimitri Fréon: _High performance simulation of soft object grasping._
+* **2021:** Dimitri Fréon (internship): _High performance simulation of soft object grasping._
 * **2021:** _Simulation and characterisation of a tactile sensor for learning robotic tasks._ (4 engineering students).
 * **2020:** _Soft-information for indoor positioning of firefighters._ (14 engineering students).
 
