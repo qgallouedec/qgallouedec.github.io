@@ -61,7 +61,7 @@ redirect_from:
 
 ## Miscellaneous
 
-* **Since 2021:** Official author of [Towards Data Science](https://towardsdatascience.com) (581k followers)
+* **Since 2021:** Official author of [Towards Data Science](https://towardsdatascience.com) (602k followers)
 * **2019:** <img alt="Medaille de la Defense Nationale Bronze ribbon.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Medaille_de_la_Defense_Nationale_Bronze_ribbon.svg/60px-Medaille_de_la_Defense_Nationale_Bronze_ribbon.svg.png" decoding="async" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Medaille_de_la_Defense_Nationale_Bronze_ribbon.svg/90px-Medaille_de_la_Defense_Nationale_Bronze_ribbon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Medaille_de_la_Defense_Nationale_Bronze_ribbon.svg/120px-Medaille_de_la_Defense_Nationale_Bronze_ribbon.svg.png 2x" data-file-width="218" data-file-height="60" width="60" height="17"> National Defence Medalist for my commitment as a firefighter.
 * **2019:** [Letter of congratulations](../files/lettre_de_felicitations.pdf) from the Chief of Staff of the Paris Fire Brigade.
 * **2019:** Finisher of my first marathon (42.195 km; 3h19min) in Paris.
