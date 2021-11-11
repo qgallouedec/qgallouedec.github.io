@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<span style="color:red">**Obsolete website, new website : [gallouedec.com](https://gallouedec.com)**</span>.
+
 
 ## About me
 
